@@ -1,0 +1,20 @@
+{
+  "name": "auth-passport-session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.8",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
